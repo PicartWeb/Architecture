@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archimature Studio | Architecture & Built Environments</title>
+    <meta
+      name="description"
+      content="Archimature Studio designs refined residential, commercial, and interior spaces with architectural precision and contemporary clarity."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container nav-shell">
+        <a class="brand" href="#top" aria-label="Archimature Studio home">
+          <span class="brand-mark">A</span>
+          <span class="brand-text">
+            <strong>Archimature</strong>
+            <small>Architecture Studio</small>
+          </span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-media"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content reveal" data-reveal="up">
+          <p class="eyebrow">Architecture Studio | Since 2012</p>
+          <div class="hero-kicker">
+            <span>Residential</span>
+            <span>Commercial</span>
+            <span>Interiors</span>
+          </div>
+          <h1>Designing quiet, enduring spaces for modern living.</h1>
+          <p class="hero-copy">
+            We shape residential, commercial, and interior environments with
+            disciplined detail, material honesty, and a clear sense of place.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects"
+              >View Selected Projects</a
+            >
+            <a class="button button-secondary" href="#contact"
+              >Start a Conversation</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container split-layout">
+          <div class="section-copy reveal" data-reveal="right">
+            <p class="eyebrow">About The Studio</p>
+            <h2>
+              Architecture that balances proportion, purpose, and atmosphere.
+            </h2>
+            <p>
+              Archimature Studio is an independent practice delivering high-end
+              architecture and design for clients who value precision, calm, and
+              thoughtful execution. Our work is defined by restrained forms,
+              carefully edited materials, and spaces that feel as considered in
+              daily use as they do on opening day.
+            </p>
+            <p>
+              From concept strategy to site coordination, we work closely with
+              homeowners, developers, and private brands to deliver environments
+              that are timeless, technically rigorous, and unmistakably refined.
+            </p>
+            <div class="about-metrics">
+              <article>
+                <strong>84</strong>
+                <span>Completed commissions</span>
+              </article>
+              <article>
+                <strong>17</strong>
+                <span>Industry recognitions</span>
+              </article>
+              <article>
+                <strong>11</strong>
+                <span>Countries delivered</span>
+              </article>
+            </div>
+          </div>
+          <div class="about-visual reveal" data-reveal="left">
+            <div class="image-stack">
+              <img
+                src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=900&q=80"
+                alt="Refined architecture studio interior with material samples and natural light"
+              />
+              <div class="floating-note">
+                <span>Detail-led design</span>
+                <strong>From concept to completion</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects" id="projects">
+        <div class="container">
+          <div class="section-heading reveal" data-reveal="up">
+            <div>
+              <p class="eyebrow">Selected Work</p>
+              <h2>
+                Built for clients who expect clarity, craft, and long-term
+                value.
+              </h2>
+            </div>
+            <p class="section-intro">
+              A curated portfolio spanning private residences, commercial
+              environments, and interior transformations shaped around
+              experience, context, and detail.
+            </p>
+          </div>
+          <div
+            class="project-filters reveal"
+            data-reveal="up"
+            role="tablist"
+            aria-label="Project filters"
+          >
+            <button
+              class="filter-button active"
+              type="button"
+              data-filter="all"
+            >
+              All
+            </button>
+            <button
+              class="filter-button"
+              type="button"
+              data-filter="residential"
+            >
+              Residential
+            </button>
+            <button
+              class="filter-button"
+              type="button"
+              data-filter="commercial"
+            >
+              Commercial
+            </button>
+            <button class="filter-button" type="button" data-filter="interior">
+              Interior
+            </button>
+          </div>
+          <div class="project-grid">
+            <article
+              class="project-card reveal"
+              data-reveal="up"
+              data-category="residential"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=900&q=80"
+                alt="Minimal luxury residence with large glazing"
+              />
+              <div class="project-card__body">
+                <span>Residential</span>
+                <h3>North Ridge House</h3>
+                <div class="project-meta">
+                  <span>London</span>
+                  <span>4,800 sq ft</span>
+                </div>
+                <p>
+                  Private hillside residence defined by stone planes, long
+                  sightlines, and controlled daylight.
+                </p>
+              </div>
+            </article>
+            <article
+              class="project-card reveal"
+              data-reveal="up"
+              data-category="commercial"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80"
+                alt="Contemporary office building with clean facade"
+              />
+              <div class="project-card__body">
+                <span>Commercial</span>
+                <h3>Atelier Square</h3>
+                <div class="project-meta">
+                  <span>Manchester</span>
+                  <span>Mixed Use</span>
+                </div>
+                <p>
+                  Multi-use urban workspace combining hospitality, retail
+                  frontage, and flexible office floors.
+                </p>
+              </div>
+            </article>
+            <article
+              class="project-card reveal"
+              data-reveal="up"
+              data-category="interior"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80"
+                alt="Soft neutral interior with modern furniture"
+              />
+              <div class="project-card__body">
+                <span>Interior</span>
+                <h3>Oakline Penthouse</h3>
+                <div class="project-meta">
+                  <span>Zurich</span>
+                  <span>Private Client</span>
+                </div>
+                <p>
+                  Interior refurbishment focused on tactile finishes, seamless
+                  storage, and quiet luxury.
+                </p>
+              </div>
+            </article>
+            <article
+              class="project-card reveal"
+              data-reveal="up"
+              data-category="commercial"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=900&q=80"
+                alt="Modern hospitality facade with architectural lighting"
+              />
+              <div class="project-card__body">
+                <span>Commercial</span>
+                <h3>Harbor Pavilion</h3>
+                <div class="project-meta">
+                  <span>Copenhagen</span>
+                  <span>Hospitality</span>
+                </div>
+                <p>
+                  Waterfront destination blending hospitality architecture with
+                  understated public presence.
+                </p>
+              </div>
+            </article>
+            <article
+              class="project-card reveal"
+              data-reveal="up"
+              data-category="residential"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80"
+                alt="Elegant courtyard home with timber and concrete"
+              />
+              <div class="project-card__body">
+                <span>Residential</span>
+                <h3>Courtyard Residence</h3>
+                <div class="project-meta">
+                  <span>Bath</span>
+                  <span>New Build</span>
+                </div>
+                <p>
+                  A family home organized around landscape, privacy, and a warm
+                  palette of natural materials.
+                </p>
+              </div>
+            </article>
+            <article
+              class="project-card reveal"
+              data-reveal="up"
+              data-category="interior"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=80"
+                alt="Refined kitchen and dining interior"
+              />
+              <div class="project-card__body">
+                <span>Interior</span>
+                <h3>Meridian Loft</h3>
+                <div class="project-meta">
+                  <span>Amsterdam</span>
+                  <span>Renovation</span>
+                </div>
+                <p>
+                  Open-plan interior concept with sculpted lighting, bespoke
+                  millwork, and gallery-like calm.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services" id="services">
+        <div class="container">
+          <div class="section-heading reveal" data-reveal="up">
+            <div>
+              <p class="eyebrow">Services</p>
+              <h2>
+                Integrated architectural services with a disciplined,
+                collaborative approach.
+              </h2>
+            </div>
+            <p class="section-intro">
+              Strategic design guidance, technical clarity, and detail-driven
+              execution across the full project journey.
+            </p>
+          </div>
+          <div class="service-grid">
+            <article class="service-card reveal" data-reveal="up">
+              <div class="service-topline">
+                <div class="service-icon">01</div>
+                <span>Built Form</span>
+              </div>
+              <h3>Architecture</h3>
+              <p>
+                Site-responsive concept development, planning, documentation,
+                and design leadership for new builds and renovations.
+              </p>
+            </article>
+            <article class="service-card reveal" data-reveal="up">
+              <div class="service-topline">
+                <div class="service-icon">02</div>
+                <span>Spatial Finish</span>
+              </div>
+              <h3>Interior Design</h3>
+              <p>
+                Spatial planning, bespoke finishes, lighting strategy, and
+                furniture curation for cohesive interior environments.
+              </p>
+            </article>
+            <article class="service-card reveal" data-reveal="up">
+              <div class="service-topline">
+                <div class="service-icon">03</div>
+                <span>Project Advisory</span>
+              </div>
+              <h3>Consulting</h3>
+              <p>
+                Design advisory, feasibility review, procurement guidance, and
+                project coordination from brief through delivery.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process" id="process">
+        <div class="container process-shell">
+          <div class="process-intro reveal" data-reveal="up">
+            <p class="eyebrow">Our Process</p>
+            <h2>
+              A clear framework that keeps quality, communication, and delivery
+              aligned.
+            </h2>
+            <p class="section-intro">
+              Each phase is structured to keep design quality high, decisions
+              clear, and the build process calm and efficient.
+            </p>
+          </div>
+          <div class="process-grid">
+            <article class="process-step reveal" data-reveal="right">
+              <span>01</span>
+              <h3>Plan</h3>
+              <p>
+                We begin with context, brief alignment, site understanding, and
+                a defined architectural direction.
+              </p>
+            </article>
+            <article class="process-step reveal" data-reveal="up">
+              <span>02</span>
+              <h3>Design</h3>
+              <p>
+                Concepts evolve through drawings, models, and material studies
+                until the design is fully resolved.
+              </p>
+            </article>
+            <article class="process-step reveal" data-reveal="up">
+              <span>03</span>
+              <h3>Build</h3>
+              <p>
+                Detailed documentation and close consultant coordination support
+                accurate, high-quality construction.
+              </p>
+            </article>
+            <article class="process-step reveal" data-reveal="left">
+              <span>04</span>
+              <h3>Deliver</h3>
+              <p>
+                Final review, styling oversight, and refinement ensure each
+                project feels complete and quietly exceptional.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container contact-layout">
+          <div class="contact-copy reveal" data-reveal="right">
+            <p class="eyebrow">Contact</p>
+            <h2>
+              Discuss a residence, workplace, or interior project with our team.
+            </h2>
+            <p>
+              We work internationally on private and commercial commissions.
+              Share a brief overview and we will respond with the next steps for
+              consultation, scope, and timeline.
+            </p>
+            <div class="contact-details">
+              <div>
+                <span>Address</span>
+                <strong>18 Wren Court, London, UK</strong>
+              </div>
+              <div>
+                <span>Phone</span>
+                <strong>+44 20 3146 2087</strong>
+              </div>
+              <div>
+                <span>Email</span>
+                <strong>studio@archimature.com</strong>
+              </div>
+            </div>
+            <div
+              class="map-placeholder"
+              aria-label="Map placeholder showing studio location"
+            >
+              <div class="map-grid"></div>
+              <span>Location Map</span>
+            </div>
+          </div>
+          <form class="contact-form reveal" data-reveal="left">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email"
+                required
+              />
+            </label>
+            <label>
+              <span>Project Type</span>
+              <select name="project-type">
+                <option>Residential</option>
+                <option>Commercial</option>
+                <option>Interior</option>
+                <option>Consulting</option>
+              </select>
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Tell us about your project"
+              ></textarea>
+            </label>
+            <button class="button button-primary button-block" type="submit">
+              Send Inquiry
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-brand-block">
+          <div class="footer-brand-mark">A</div>
+          <div>
+            <h3>Archimature Studio</h3>
+            <p>Designing quiet, enduring spaces for modern living.</p>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-credit">
+          <span>Designed & developed by</span>
+          <a
+            href="https://picartweb.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >CodeWithKokizZ</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
